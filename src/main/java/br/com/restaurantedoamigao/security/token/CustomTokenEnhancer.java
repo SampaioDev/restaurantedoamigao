@@ -8,8 +8,8 @@ public class CustomTokenEnhancer implements TokenEnhancer {
 
 	@Override
 	public OAuth2AccessToken enhance(OAuth2AccessToken accessToken, OAuth2Authentication authentication) {
-		// TODO Auto-generated method stub
-		return null;
+
+		return accessToken;
 	}
 
 }
